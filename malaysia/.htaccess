@@ -1,0 +1,2 @@
+#RewriteEngine On
+#RewriteRule ^about_us/(.*)$ /malaysia/who_we_are/$1 [R=302,NC,L]
