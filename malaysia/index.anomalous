@@ -9,43 +9,36 @@
 
 <div class="box-mainvisual-top kkc-anime_load_top-mainvisual_arrow">
 <div class="box-hdg-wrapper type-03 kkc-anime_load_other-mainvisual homepage-header">
+
 <div class="image">
-<img src="/malaysia/images/index_bg_mainsection_01.png" alt="">
+<img src="/malaysia/images/index_bg_home_mainsection_01.png" alt="">
+<div class="box-hdg-container">
+<div class="box-content">
+<h1 class="hdg-lv1-04">Taking the walk of Life,<br> one life at a time</h1>
+<a href="#anc-our-philosophy" class="btn-olc-small-size btn-orange-white btn-arrow-down"><span>Learn more</span></a>
+<!-- /.box-content --></div>
+<!-- /.box-hdg-container --></div>
 <!-- /.image --></div>
 <!-- /.box-hdg-wrapper --></div>
 
-<div class="str-section-wrapper first-section homepage-01">
+<div class="str-section-wrapper first-section homepage-03">
 <div class="str-section str-section-boxed">
 <div class="box-hdg2-wrapper" id="anc-our-philosophy">
-<h2 class="hdg-lv2-02">Taking the walk of Life,<br> one life at a time</h2>
-<p class="text-lead">We help patients live better lives, using the power of innovation in <br/>life-sciences and technologies.</p>
-<!-- /.box-hdg2-wrapper --></div>
-<!-- /.str-section --></div>
-
-
-<!-- /.str-section-wrapper --></div>
-
-<div class="str-section-wrapper str-section-orange-bg homepage-03">
-<div class="str-section str-section-boxed str-section-spacing">
-
-<div class="box-hdg2-wrapper" id="anc-areas-of-focus">
-<h2 class="hdg-lv2-04">Kyowa Kirin Malaysia</h2>
+<h2 class="hdg-lv2-02">Kyowa Kirin Malaysia</h2>
 <div class="area-focus-inner">
-<p class="title">Life as an integral part of our work</p>
-<br>
+<p class="title">We help patients live better lives, using the power of innovation in life-sciences and technologies.</p><br/>
 <!-- /.area-focus-inner --></div>
-<p class="text-lead">Since the early 2000s Kyowa Kirin has been present in Malaysia with our innovative medicines designed to alleviate suffering and restore health to patients. As part of the larger global Kyowa Kirin Group headquartered in Japan, we are dedicated to pursuing our Commitment to Life as an integral part of our work.</p>
-<p class="text-lead">From humble beginnings and faltering first steps we have progressed steadily over the years to become a recognized name in the Malaysian pharmaceutical scene. As always, we remain determined to continue forging ahead with a rich pipeline and new therapeutic areas to venture into, all the while conducting ourselves with the highest standard of ethics and quality assurance.</p>
-
+<p class="text-lead">Since the early 2000s Kyowa Kirin has been present in Malaysia with our innovative medicines designed to alleviate suffering and restore health to patients.  As part of the larger global Kyowa Kirin Group headquartered in Japan, we are dedicated to pursuing our Commitment to Life as an integral part of our work.</p>
+<p class="text-lead">From humble beginnings and faltering first steps we have progressed steadily over the years to become a recognized name in the Malaysian pharmaceutical scene.  As always, we remain determined to continue forging ahead with a rich pipeline and new therapeutic areas to venture into, all the while conducting ourselves with the highest standard of ethics and quality assurance.</p>
 <!-- /.box-hdg2-wrapper --></div>
 <!-- /.str-section --></div>
 
-<!-- /.box-hdg2-wrapper --></div>
+
 <!-- /.str-section-wrapper --></div>
 
 
-<div class="str-section-wrapper homepage-04">
-<div class="str-section">
+<div class="str-section-wrapper str-section-grey-bg homepage-04">
+<div class="str-section str-section-spacing">
 <div class="box-get-to-know-us">
 <div class="box-hdg2-wrapper" id="anc-get-to-know">
 <h2 class="hdg-lv2-03">Get to Know Us</h2>
@@ -69,12 +62,10 @@
 <div class="str-section-wrapper first-section homepage-01">
 <div class="str-section str-section-boxed">
 <div class="box-hdg2-wrapper" id="anc-our-philosophy">
-<h2 class="hdg-lv2-02">Commitment to life</h2>
+<h2 class="hdg-lv2-03">Commitment to life</h2>
 <p class="text-lead">For us innovation does not just mean growth, it means <br/> doing everything we can to improve the quality of life for <br/> people around the world.</p>
 <!-- /.box-hdg2-wrapper --></div>
 <!-- /.str-section --></div>
-
-<div class="str-section-wrapper homepage-02">
 <div class="box-who-we-are-button">
 <div class="box-hdg2-wrapper">
 <a href="/malaysia/about_us/index.html" class="btn-olc-small-size btn-orange-grey"><span>Our core values</span></a>

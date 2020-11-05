@@ -7,15 +7,27 @@
 <link rel="canonical" href="https://www.kyowakirin.com/malaysia/contact_us/index.html">
 <partial src="../includes/header-end.html"/>
 
+<div class="box-hdg-wrapper type-04 kkc-anime_load_other-mainvisual contact-us-header">
+<div class="image">
+<img src="/malaysia/images/index_bg_mainsection_01.png" alt="">
+<h2 class="hdg-lv2-03">CONTACT US</h2>
+  <!-- /.image --></div>
+<!-- /.image --></div>
+
 <div class="box-hdg-wrapper type-05 kkc-anime_load_other-mainvisual contact-us-01">
 
 <div class="box-hdg-container">
 <div class="box-content-left">
-<h1 class="hdg-lv1-02">Asia Pacific network</h1>
-<p class="text-lead">Kyowa Kirin Asia Pacific is headquartered in Singapore, with regional networks in the following markets.</p>
-<br>
-<a href="#anc-singapore-office" class="btn-olc-small-size btn-orange-grey btn-arrow-down"><span>Learn more</span></a>
-<!-- /.box-content-right --></div>
+<h1 class="hdg-lv1-02">Kyowa Kirin  Malaysia</h1>
+
+<div class="box-content">
+<h3 class="title"><span class="sub">Kyowa Kirin Malaysia Sdn Bhd</span>
+  <br><span class="text-italic"><small>(formerly known as Kyowa Hakko Kirin (Malaysia) Sdn Bhd)</small></span></h3>
+<p class="box-text">A501 West Wing,<br>Wisma Consplant 2,<br>Jalan SS 16/1, Subang Jaya,<br>47500 Selangor, Malaysia<br/>E-mail:<a href="mailto:enquiry.kkmy@kyowakirin.com" target="_blank">&nbsp;enquiry.kkmy@kyowakirin.com</a></p>
+<!--<p class="link-icon link-text"><span>Visit website</span></p>-->
+</div>
+
+<!-- /.box-content-left --></div>
 <!-- /.box-hdg-container --></div>
 <div class="image">
 <div class="map-area" >
@@ -60,47 +72,9 @@ div.map-area .map-link { position: absolute; width: 2.9%; height: 4.55%; z-index
 .map-popup.box-modal-outbound .panel{ width:100% !important; box-shadow: 1px 1px 2px rgba(0, 0, 0, .3) !important; }
 </style>
 
-<div class="str-section-wrapper contact-us-02">
-<div class="box-hdg2-wrapper">
-<!-- /.box-hdg2-wrapper --></div>
-<!-- /.str-section-wrapper --></div>
 
-<div class="str-section-wrapper first-section contact-us-03">
-<div class="str-section">
-<div class="box-hdg2-wrapper" id="anc-singapore-office">
-<h1 class="hdg-lv2-02">Singapore office</h1>
 
-<div class="box-singaporearea">
-  <div class="box-offices-globalarea">
-  <div class="box-offices-globalarea-outer">
-<div class="box-inner">
-<div class="box-panel">
-<!--Singapore -->
-  <div class="panel">
-  <div class="box-thumb"><img src="images/index_img_singapore_map_01.jpg" alt=""></div>
-  <div class="box-content">
-  <h3 class="title"><span class="sub">Kyowa Kirin Asia Pacific Pte. Ltd.</span></h3>
-  <div class="box-sub-content box-sub-content-1">
-  <h4 class="title">Address in operation</h4>
-  <p class="box-text">80 Robinson Road<br>#22-01/01A<br>Singapore 068898</p>
-  <p class="box-text">Phone: +65 6836 3991<br>Fax: +65 6836 3928<br>E-mail: <a href="mailto:Info-KKAP@kyowakirin.com" target="_blank"> Info-KKAP@kyowakirin.com</a>
-  <!-- /.box-sub-content --></div>
-  <div class="box-sub-content">
-  <h4 class="title">Distributor: Steward Cross Pte Ltd</h4>
-  <p class="box-text">Address: 801 Toa Payoh Lorong 7,<br> #06-06 Wearnes Building,<br> Singapore 319319.<br>Phone : +65-6253 2938</p>
-  <!-- /.box-sub-content --></div>
-  <!-- /.box-content --></div>
-<!-- /.panel singapore --></div>
-<!-- /.box-panel --></div>
-<!-- /.box-inner --></div>
-<!-- /.box-offices-globalarea-outer --></div>
-<!-- /.box-offices-globalarea --></div>
-<!-- /.box-globalnetwork --></div>
-<!-- /.box-hdg2-wrapper --></div>
-<!-- /.str-section --></div>
-<!-- /.str-section-wrapper --></div>
-
-<div class="str-section-wrapper first-section contact-us-04">
+<div class="str-section-wrapper contact-us-04">
 <div class="str-section">
 <div class="box-hdg2-wrapper" id="anc-other-apac-offices">
 <h1 class="hdg-lv2-02">Our Asia Pacific Offices</h1>
@@ -111,17 +85,19 @@ div.map-area .map-link { position: absolute; width: 2.9%; height: 4.55%; z-index
 
 <div class="box-inner">
 <div class="box-panel">
-  <!--Australia -->
-  <div class="panel">
-    <div class="box-thumb"><img src="images/index_img_regionalnetwork_panel_australia_01.jpg" alt=""></div>
-    <div class="box-content">
-    <h3 class="title"><span class="sub">AUSTRALIA</span>Kyowa Kirin Australia Pty Ltd</h3>
-    <p class="box-text">68 York Street,<br>Sydney,<br>NSW 2000, Australia<br/>E-mail:<a href="mailto:enquiry.kkau@kyowakirin.com" target="_blank">&nbsp;enquiry.kkau@kyowakirin.com</a></p>
-    </div>
-  <!-- /.panel Australia --></div>
 
-<!--China -->
-<a href="http://www.kyowa-kirin.com.cn/en/index.html" target="_blank" class="panel">
+  <!--Singapore -->
+  <a href="http#" target="_blank" class="panel">
+  <div class="box-thumb"><img src="images/index_img_regionalnetwork_panel_singapore_01.jpg" alt=""></div>
+  <div class="box-content">
+  <h3 class="title"><span class="sub">SINGAPORE</span>Kyowa Kirin Asia Pacific Pte. Ltd.</h3>
+  <p class="box-text">80 Robinson Road,<br>#22-01/01A,<br/>Singapore 06889<</p>
+  <p class="link-icon link-text"><span>Visit website</span></p>
+  </div>
+<!-- /.panel Singapore --></a>
+
+  <!--China -->
+  <a href="http://www.kyowa-kirin.com.cn/en/index.html" target="_blank" class="panel">
     <div class="box-thumb"><img src="images/index_img_regionalnetwork_panel_china_01.jpg" alt=""></div>
     <div class="box-content">
     <h3 class="title"><span class="sub">CHINA</span>Kyowa Hakko Kirin China Pharmaceutical Co., Ltd.</h3>
@@ -129,6 +105,15 @@ div.map-area .map-link { position: absolute; width: 2.9%; height: 4.55%; z-index
     <p class="link-icon link-text"><span>Visit website</span></p>
     </div>
 <!-- /.panel China --></a>
+
+<!--Australia -->
+<div class="panel">
+  <div class="box-thumb"><img src="images/index_img_regionalnetwork_panel_australia_01.jpg" alt=""></div>
+  <div class="box-content">
+  <h3 class="title"><span class="sub">AUSTRALIA</span>Kyowa Kirin Australia Pty Ltd</h3>
+  <p class="box-text">68 York Street,<br>Sydney,<br>NSW 2000, Australia<br/>E-mail:<a href="mailto:enquiry.kkau@kyowakirin.com" target="_blank">&nbsp;enquiry.kkau@kyowakirin.com</a></p>
+  </div>
+<!-- /.panel Australia --></div>
 
 <!--Hong Kong -->
 <a href="https://www.kyowakirin.com/hk/index.html" target="_blank" class="panel">
@@ -150,16 +135,6 @@ div.map-area .map-link { position: absolute; width: 2.9%; height: 4.55%; z-index
 </div>
 <!-- /.panel korea--></a>
 
-<!--Malaysia -->
-<div href="#" target="_blank" class="panel">
-  <div class="box-thumb"><img src="images/index_img_regionalnetwork_panel_malaysia_01.jpg" alt=""></div>
-  <div class="box-content">
-  <h3 class="title"><span class="sub">MALAYSIA</span>Kyowa Kirin Malaysia Sdn Bhd
-    <br><span class="text-italic"><small>(formerly known as Kyowa Hakko Kirin (Malaysia) Sdn Bhd)</small></span></h3>
-  <p class="box-text">A501 West Wing,<br>Wisma Consplant 2,<br>Jalan SS 16/1, Subang Jaya,<br>47500 Selangor, Malaysia<br/>E-mail:<a href="mailto:enquiry.kkmy@kyowakirin.com" target="_blank">&nbsp;enquiry.kkmy@kyowakirin.com</a></p>
-  <!--<p class="link-icon link-text"><span>Visit website</span></p>-->
-  </div>
-<!-- /.panel Malaysia --></div>
 
 <!--Thailand -->
 <a href="https://www.kyowakirin.com/thailand/index.html" target="_blank" class="panel">

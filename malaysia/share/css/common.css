@@ -642,6 +642,9 @@ template {
   margin: 0 auto;
 }
 
+xx.box-mainvisual-top,
+xx.str-section-wrapper { max-width:1500px; margin: 0 auto; }
+
 
 .str-section.str-section-boxed-980px,
 .footer > .footer-inner,
@@ -667,7 +670,7 @@ template {
 .box-corevalue-top .box-hdg2-wrapper,
 .box-careers-top .box-hdg2-wrapper,
 .str-section-wrapper > .str-section.therapeutic-areas,
-.workingwithus-01.str-section-wrapper > .str-section,
+xx.workingwithus-01.str-section-wrapper > .str-section,
 .workingwithus-05.str-section-wrapper > .str-section,
 .str-section-wrapper.homepage-03 .box-hdg2-wrapper,
 .str-section-wrapper.homepage-04 .box-hdg2-wrapper,
@@ -682,6 +685,10 @@ template {
 .str-section.str-section-spacing{
   padding-top: 80px;
 }
+
+.homepage-04 .str-section.str-section-spacing{
+   padding-bottom:50px;
+ }
 .whatwedo-01 .str-section.str-section-spacing{
   padding-top:100px;
 }
@@ -722,6 +729,13 @@ template {
   position: fixed;
 }
 
+.contact-us-header{
+  background-image: url('/malaysia/images/index_bg_contact-us_01.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: fixed;
+}
 
 .str-section-wrapper.str-section-grey-bg,
 .box-atagrance-top{
@@ -744,7 +758,7 @@ template {
 }
 .str-section-wrapper.str-section-orange-bg{
   background-image: url('/malaysia/images/index_bg_section-orange_01.png');
-  background-size: cover;
+  background-size:  cover;
   background-position: top center;
   background-repeat: no-repeat;
 }
@@ -757,7 +771,6 @@ template {
 .str-section-wrapper.homepage-03,
 .box-atagrance-top{
   margin-top: 80px;
-  margin-bottom: 80px;
   padding:80px 0;
 }
 .str-section-wrapper.homepage-03 .text-lead{
@@ -817,7 +830,6 @@ img {
 .str-section-wrapper.whatwedo-01 .area-focus-icon img.sp-hide {
   max-width: none !important;
 }
-xx.str-section-wrapper.homepage-03 .area-focus-wrapper { max-width: 1100px !important; }
 
 textarea {
   resize: vertical;
@@ -918,7 +930,7 @@ hr {
 
 a {
   text-decoration: none;
-  color: #1ba8d6;
+  color: #ea5504;
 }
 
 /* ============================================================================
@@ -1522,17 +1534,22 @@ main.type-01 + footer {
 * 見出しモジュール
 * ========================================================================= */
 .box-hdg-wrapper {
-  text-align: center;
+  text-align: left;
   position: relative;
   min-height: 32.46666vw;
 }
+
+.homepage-header.box-hdg-wrapper { text-align: center !important; }
+
+.box-hdg-wrapper .image img { width:100%; }
+.box-hdg-wrapper.homepage-header .image img { min-height: 200px; }
 
 .box-hdg-wrapper.type-02 {
   min-height: 81.13333vw;
 }
 .box-hdg-wrapper.type-03 { min-height: 95vh; }
 .box-hdg-wrapper.type-05 { min-height: 75vh; }
-.box-hdg-wrapper.type-04 { min-height: 50vh;}
+.box-hdg-wrapper.type-04 { min-height: 25vh;}
 
 .box-hdg-wrapper.type-02 > .hdg-lv1-01 {
   margin-top: 0;
@@ -1570,10 +1587,21 @@ main.type-01 + footer {
   color: #fff;
   line-height:1.2em;
   margin-bottom:1em;
+  text-align:center;
+}
+.box-hdg-wrapper .image .hdg-lv2-03 {
+  position:absolute;
+  bottom:10px;
+  width:100%;
+  text-align:center !important;
+  color:white;
 }
 @media only screen and (min-width: 991px) {
+  .box-hdg-wrapper .image .hdg-lv2-03 {
+    bottom:50px !important;
+}
 .box-hdg-wrapper .hdg-lv1-04{
-  text-align:right;
+  text-align:center;
   font-size: 5rem;
 }
 }
@@ -5122,7 +5150,7 @@ div#message-president .box-image{
 .box-hdg-wrapper.type-03 .box-hdg-container{
   position: absolute;
   z-index: 2;
-  top: 50%;
+  bottom: 5%;
   width: 100%;
   display:block;
   margin:auto;
@@ -5402,12 +5430,12 @@ div#message-president .box-image{
 }
 @media only screen and (min-width: 749px) {
 .box-corevalue-top {
-    margin-bottom: 360px;
+    margin-top: 250px;
 }
 }
 @media only screen and (max-width: 748px) {
 .box-corevalue-top {
-    margin-bottom: 380px;
+    margin-bottom: 580px;
 }
 }
 
@@ -5420,9 +5448,14 @@ div#message-president .box-image{
   height: 156.8vw;
 }
 
+.box-corevalue-top .box-corevalue-wrapper .image img {
+  width: 100%;
+}
+
 .box-corevalue-top .box-corevalue-wrapper > .box-inner {
   position: relative;
   height: 100%;
+  top:-100px;
 }
 
 .box-corevalue-top .box-corevalue-wrapper .parts-feature {
@@ -5735,7 +5768,7 @@ div#message-president .box-image{
 }
 
 .box-globalnetwork {
-  background-color: rgba(222, 222, 222, .4);
+  xxbackground-color: rgba(222, 222, 222, .4);
   margin-top:30px;
   margin-bottom: 16px;
 }
@@ -6777,7 +6810,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
 .whatwedo-01 .box-hdg2-wrapper,
 .workingwithus-01 .box-hdg2-wrapper {
   margin-bottom: 30px;
-  max-width: 600px;
+  max-width: 1500px;
   margin:auto;
 }
 
@@ -6811,7 +6844,7 @@ xx.js-enable .box-offices-globalarea .box-panel {
   font-weight: 500;
   line-height: 1.20833;
   text-align: center;
-  color: #ea5504;
+  color: #5d6164; /* #ea5504 */
 }
 
 .workingwithus-03 .title,
@@ -8113,9 +8146,6 @@ padding-top:20px;
     min-height: 100vh;
     margin-top: -47px;
   }
-  .box-hdg-wrapper.type-05 {
-    margin-top: -47px;
-  }
   .box-hdg-wrapper.type-04 {
     min-height: 65vh;
     margin-top: -47px;
@@ -9168,22 +9198,35 @@ padding-top:20px;
     background-image: url("../../images/index_bg_corevalue_08.jpg");
     height: 1000px;
   }
+
+  .box-corevalue-top .box-corevalue-wrapper > .box-inner {
+    height: 1%;
+  }
+
   .box-corevalue-top .box-corevalue-wrapper .parts-commitment {
-    bottom: -100px;
-    left: 30%;
+    bottom: -25px;
+    left: 33%;
   }
   .box-corevalue-top .box-corevalue-wrapper .parts-innovation {
-    bottom: -200px;
+    bottom: -225px;
     right: 4%;
   }
   .box-corevalue-top .box-corevalue-wrapper .parts-integrity {
-    bottom: -190px;
-    left: 0%;
+    bottom: -225px;
+    left: 4%;
   }
   .box-corevalue-top .box-corevalue-wrapper .parts-temwork {
     right: 34%;
-    bottom: -380px;
+    bottom: -325px;
   }
+
+  .box-corevalue-top .box-corevalue-wrapper .parts-commitment:hover,
+  .box-corevalue-top .box-corevalue-wrapper .parts-innovation:hover,
+  .box-corevalue-top .box-corevalue-wrapper .parts-integrity:hover,
+  .box-corevalue-top .box-corevalue-wrapper .parts-temwork:hover{
+    z-index:1000;
+  }
+
 .box-corevalue-top .box-corevalue-wrapper .parts-integrity .sp-hide.parts-feature-before,
 .box-corevalue-top .box-corevalue-wrapper .parts-integrity .parts-feature-after.minimum,
 .box-corevalue-top .box-corevalue-wrapper .parts-temwork .sp-hide.parts-feature-before,
@@ -9234,7 +9277,7 @@ padding-top:20px;
     padding: 12px 15px;
   }
 
-  .box-globalnetwork {
+  xx.box-globalnetwork {
     background-color: #f4f4f4;
   }
   .box-regionalnetwork{
@@ -10025,7 +10068,7 @@ padding-top:20px;
 
 @media screen and (min-width: 889px) {
   .box-hdg-wrapper.type-03 .box-hdg-container .box-content-right{
-      max-width:50%;
+      max-width:100%;
       display:block;
       float:right;
   }
@@ -10258,7 +10301,7 @@ padding-top:20px;
     order: 3;
   }
   .footer .footer-link > li:nth-of-type(5) {
-    order: 9;
+    order: 6;
   }
   .footer .footer-link > li:nth-of-type(6) {
     order: 4;
@@ -10270,7 +10313,7 @@ padding-top:20px;
     order: 11;
   }
   .footer .footer-link > li:nth-of-type(9) {
-    order: 6;
+    order: 8;
   }
   .footer .footer-link > li:nth-of-type(10) {
     order: 8;
@@ -12358,13 +12401,15 @@ padding-top:20px;
 .str-section-wrapper.str-section-pink-bg {
     padding: 80px 0 50px 0;
 }
-.str-section-wrapper.homepage-03 .area-focus-wrapper {
+
+
+.str-section-wrapper .area-focus-wrapper {
     display: flex;
     max-width: 900px;
     margin:auto;
 }
 
-.str-section-wrapper.homepage-03 .area-focus-wrapper .area-focus-icon{
+.str-section-wrapper .area-focus-wrapper .area-focus-icon{
     padding: 1em;
 }
 @media only screen and (max-width: 748px) {
@@ -12374,14 +12419,14 @@ padding-top:20px;
 
 .str-section-wrapper.our-medicines-05 { margin-top:-50px; }
 
-.str-section-wrapper.homepage-03 .area-focus-wrapper {
+.str-section-wrapper .area-focus-wrapper {
     flex-wrap: wrap;
 }
-.str-section-wrapper.homepage-03 .area-focus-wrapper .area-focus-icon{
+.str-section-wrapper .area-focus-wrapper .area-focus-icon{
     flex-basis:50%;
 }
 }
-.str-section-wrapper.homepage-03 .box-button {
+.str-section-wrapper .box-button {
     margin-top:30px;
     text-align: center;
     padding-bottom:50px;
@@ -12502,7 +12547,7 @@ padding-top:20px;
   padding-top:80px;
 }
 .str-section-wrapper.workingwithus-01{
-  padding-bottom: 51px;
+  padding-bottom: 0px;
 }
 .box-layout-image.content-valign {
     display: flex;
@@ -12640,9 +12685,6 @@ footer .footer-area-sub p.footer-copy {
     background: transparent;
 }
 
-.str-section-wrapper.first-section.contact-us-04{
-  background: #f4f4f4;
-}
 @media only screen and (max-width: 768px){
   .str-section-wrapper.contact-us-02{
     min-height: 300px;
@@ -12696,7 +12738,7 @@ footer .footer-area-sub p.footer-copy {
 .box-hdg-wrapper.type-05 .box-hdg-container{
   position: absolute;
   z-index: 2;
-  top: 50%;
+  top: 37%;
   width: 100%;
   display:block;
   margin:auto;
