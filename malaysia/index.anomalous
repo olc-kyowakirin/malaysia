@@ -22,7 +22,7 @@
 <!-- /.box-hdg-wrapper --></div>
 
 <div class="str-section-wrapper first-section homepage-03">
-<div class="str-section str-section-boxed">
+<div class="str-section str-section-boxed-800">
 <div class="box-hdg2-wrapper" id="anc-our-philosophy">
 <h2 class="hdg-lv2-02">Kyowa Kirin Malaysia</h2>
 <div class="area-focus-inner">
@@ -60,7 +60,7 @@
 <!-- /.str-section-wrapper --></div>
 
 <div class="str-section-wrapper first-section homepage-01">
-<div class="str-section str-section-boxed">
+<div class="str-section str-section-boxed-800">
 <div class="box-hdg2-wrapper" id="anc-our-philosophy">
 <h2 class="hdg-lv2-03">Commitment to life</h2>
 <p class="text-lead">For us innovation does not just mean growth, it means doing everything we can to improve the quality of life for people around the world.</p>
@@ -75,16 +75,3 @@
 
 
 <partial src="includes/footer.html"/>
-
-
-<script>
-    (function (w,d,s,o,f,js,fjs) {
-      w['KKLife-Widget']=o;w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };
-      var element = d.createElement('div');
-      element.setAttribute('id', 'kklife-widget-element')
-      d.body.appendChild(element);
-      js = d.createElement(s), fjs = d.getElementsByTagName(s)[0];
-      js.id = o; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);
-    }(window, document, 'script', 'kklife', 'https://kklife-widget.whattheframework.co.uk/dist/js/widget.js'));
-    kklife('init', { sourceId: 'https://covid-19.kyowakirinlife.com/asia/', locale: 'en_SG' });
-  </script>
