@@ -778,6 +778,13 @@ template {
   margin-top: 80px;
   padding:80px 0;
 }
+@media only screen and (max-width: 1023px) {
+  .str-section-wrapper.homepage-03,
+  .box-atagrance-top{
+    padding-top:0px !important;
+  }
+}
+
 .str-section-wrapper.homepage-03 .text-lead{
   padding-bottom: 30px;
 }
@@ -1547,7 +1554,7 @@ main.type-01 + footer {
 .homepage-header.box-hdg-wrapper { text-align: center !important; }
 
 .box-hdg-wrapper .image img { width:100%; }
-.box-hdg-wrapper.homepage-header .image img { min-height: 200px !important; }
+.box-hdg-wrapper.homepage-header .image img { min-height: 225px !important; }
 
 .box-hdg-wrapper.type-02 {
   min-height: 81.13333vw;
@@ -1591,7 +1598,7 @@ main.type-01 + footer {
   font-weight: 500;
   color: #fff;
   line-height:1.2em;
-  margin-bottom:1em;
+  margin-bottom:0.75em;
   text-align:center;
 }
 .box-hdg-wrapper .image .hdg-lv2-03 {
@@ -1601,7 +1608,7 @@ main.type-01 + footer {
   text-align:center !important;
   color:white;
 }
-@media only screen and (min-width: 991px) {
+@media only screen and (min-width: 768px) {
   .box-hdg-wrapper .image .hdg-lv2-03 {
     bottom:50px !important;
 }
@@ -5155,7 +5162,7 @@ div#message-president .box-image{
 .box-hdg-wrapper.type-03 .box-hdg-container{
   position: absolute;
   z-index: 2;
-  bottom: 5%;
+  bottom: 15%;
   width: 100%;
   display:block;
   margin:auto;
@@ -12551,6 +12558,7 @@ padding-top:20px;
 .str-section-wrapper.who-we-are-4{
   padding: 50px 0 50px 0
 }
+
 .str-section-wrapper.first-section{
   padding-top:80px;
 }

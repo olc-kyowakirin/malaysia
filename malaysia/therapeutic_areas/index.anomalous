@@ -7,6 +7,7 @@
 <link rel="canonical" href="https://www.kyowakirin.com/malaysia/therapeutic_areas/index.html">
 <partial src="../includes/header-end.html"/>
 
+
 <div class="box-hdg-wrapper type-04 kkc-anime_load_other-mainvisual working-with-us-header">
 <div class="image">
 <img src="/malaysia/images/index_bg_mainsection_01.png" alt="">
@@ -54,7 +55,7 @@
 <!-- /.area-focus-wrapper --></div>
 <div class="str-section">
 <div class="box-hdg2-wrapper">
-  <p class="text-lead" >To find more, contact  <a href="mailto:enquiry.kkmy@kyowakirin.com">enquiry.kkmy@kyowakirin.com</a></p>
+  <p class="text-lead" ><br/>To find more, contact  <a href="mailto:enquiry.kkmy@kyowakirin.com">enquiry.kkmy@kyowakirin.com</a></p>
 <!-- /.box-hdg2-wrapper --></div>
 <!-- /.str-section --></div>
 <!-- /.str-section-wrapper --></div>
