@@ -1554,7 +1554,7 @@ main.type-01 + footer {
 .homepage-header.box-hdg-wrapper { text-align: center !important; }
 
 .box-hdg-wrapper .image img { width:100%; }
-.box-hdg-wrapper.homepage-header .image img { min-height: 225px !important; }
+.box-hdg-wrapper.homepage-header .image img { min-height: 47% !important; }
 
 .box-hdg-wrapper.type-02 {
   min-height: 81.13333vw;
@@ -5448,7 +5448,7 @@ div#message-president .box-image{
 }
 @media only screen and (max-width: 768px) {
 .box-corevalue-top {
-    margin-bottom: calc(100vw*1.3);
+    margin-bottom: calc(100vw*1.2);
 }
 }
 
@@ -5460,7 +5460,11 @@ div#message-president .box-image{
   position: relative;
   height: 156.8vw;
 }
-
+@media only screen and (max-width: 768px) {
+  .box-corevalue-top .box-corevalue-wrapper {
+    background-size: contain !important;
+  }
+}
 .box-corevalue-top .box-corevalue-wrapper .image img {
   width: 100%;
 }
@@ -5470,7 +5474,12 @@ div#message-president .box-image{
   height: 100%;
   top:-100px;
 }
-
+@media only screen and (max-width: 768px) {
+  .box-corevalue-top .box-corevalue-wrapper > .box-inner {
+    height: 53vw !important;
+    top:-0px !important;
+  }
+}
 .box-corevalue-top .box-corevalue-wrapper .parts-feature {
   position: absolute;
   z-index: 1;
@@ -5494,11 +5503,12 @@ div#message-president .box-image{
 .box-corevalue-top .box-corevalue-wrapper .parts-commitment {
   left: 0;
   width: 59.86667vw;
+  bottom:-105vw;
 }
 
 .box-corevalue-top .box-corevalue-wrapper .parts-innovation {
   right: 1.33333vw;
-  bottom: -15.46667vw;
+  bottom: -132vw;
   width: 63.86667vw;
 }
 
@@ -5515,7 +5525,7 @@ div#message-president .box-image{
 }
 
 .box-corevalue-top .box-corevalue-wrapper .parts-integrity {
-  bottom: -72.66667vw;
+  bottom: -176vw;
   left: 0;
   width: 53.73333vw;
 }
@@ -5535,7 +5545,7 @@ div#message-president .box-image{
 
 .box-corevalue-top .box-corevalue-wrapper .parts-temwork {
   right: 0;
-  bottom: -127.6vw;
+  bottom: -220vw;
   width: 60.66667vw;
 }
 
@@ -11294,7 +11304,7 @@ padding-top:20px;
   }
 
   .box-corevalue-top .box-corevalue-wrapper {
-    margin-top: 75px;
+    margin-top: 50px;
     margin-bottom: 97.33333vw;
   }
   .box-corevalue-top .box-corevalue-wrapper .parts-feature {

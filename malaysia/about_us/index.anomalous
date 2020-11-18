@@ -51,7 +51,7 @@
 
 <div class="box-corevalue-top">
 <div class="box-corevalue-wrapper">
-  <div class="image">
+  <div class="image sp-hide">
     <img src="images/index_bg_corevalue_01.png" alt="">
   <!-- /.image --></div>
 
