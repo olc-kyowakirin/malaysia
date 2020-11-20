@@ -7,7 +7,6 @@
 <link rel="canonical" href="https://www.kyowakirin.com/malaysia/contact_us/index.html">
 <partial src="../includes/header-end.html"/>
 
-
 <div class="box-hdg-wrapper type-04 kkc-anime_load_other-mainvisual contact-us-header">
 <div class="image">
 <img src="/malaysia/images/index_bg_mainsection_01.png" alt="">
@@ -32,48 +31,18 @@
 <!-- /.box-hdg-container --></div>
 <div class="image">
 <div class="map-area" >
-<img class="map-image" src="images/index_bg_mainsection_contact_map.png" alt="" usemap="#asia-pacific-network-map">
-<a popup-name="map-popup" class="map-link text-link-sub" href="#outBoundModal-popup-ko" title="Korea" style="left: 60%; top: 11.95%;"></a>
-<a popup-name="map-popup" class="map-link text-link-sub" href="#outBoundModal-popup-ch" title="China" style="left: 56.4%; top: 17.34%;"></a>
-<a popup-name="map-popup" class="map-link text-link-sub" href="#outBoundModal-popup-tw" title="Taiwan" style="left: 57.2%; top: 23.23%;"></a>
-<a popup-name="map-popup" class="map-link text-link-sub" href="#outBoundModal-popup-kk" title="Honk Kong" style="left: 52.4%; top: 26.94%;"></a>
-<a popup-name="map-popup" class="map-link text-link-sub" href="#outBoundModal-popup-th" title="Tailand" style="left: 45.6%; top: 36.36%;"></a>
-<a popup-name="map-popup" class="map-link text-link-sub" href="#outBoundModal-popup-my" title="Malaysia" style="left: 46.5%; top: 43.6%;"></a>
-<a popup-name="map-popup" class="map-link text-link-sub" href="#outBoundModal-popup-sg" title="Singapore" style="left: 48.5%; top: 49.49%;"></a>
-<a popup-name="map-popup" class="map-link text-link-sub" href="#outBoundModal-popup-au" title="Australia" style="left: 72.8%; top: 90%;"></a>
+<img class="map-image" src="images/index_bg_mainsection_contact_map.png" alt="">
+<a class="map-link text-link-sub map-link-ko" href="#outBoundModal-popup-ko" title="Korea"></a>
+<a class="map-link text-link-sub map-link-ch" href="#outBoundModal-popup-ch" title="China"></a>
+<a class="map-link text-link-sub map-link-tw" href="#outBoundModal-popup-tw" title="Taiwan"></a>
+<a class="map-link text-link-sub map-link-kk" href="#outBoundModal-popup-kk" title="Honk Kong"></a>
+<a class="map-link text-link-sub map-link-th" href="#outBoundModal-popup-th" title="Tailand"></a>
+<a class="map-link text-link-sub map-link-my" href="#outBoundModal-popup-my" title="Malaysia"></a>
+<a class="map-link text-link-sub map-link-sg" href="#outBoundModal-popup-sg" title="Singapore"></a>
+<a class="map-link text-link-sub map-link-au" href="#outBoundModal-popup-au" title="Australia"></a>
 </div>
-<style>
-div.map-area { position:relative;float:left; width:100%; height:auto; }
-div.map-area .map-image {position:unset !important;}
-div.map-area .map-link { position: absolute; width: 2.9%; height: 4.55%; z-index: 2;}
-</style>
 <!-- /.image --></div>
 <!-- /.box-hdg-wrapper --></div>
-<!--<map name="asia-pacific-network-map">
-  <area shape="circle" coords="504,303,25" alt="Singapore" href="#outBoundModal-popup-sg" class="text-link-sub">
-  <area shape="circle" coords="669,485,25" alt="Australia" href="#outBoundModal-popup-au" class="text-link-sub">
-  <area shape="circle" coords="579,113,25" alt="China" href="#outBoundModal-popup-ch" class="text-link-sub">
-  <area shape="circle" coords="537,177,25" alt="HonkHong" href="#outBoundModal-popup-kk" class="text-link-sub">
-  <area shape="circle" coords="617,81,25" alt="Korea" href="#outBoundModal-popup-ko" class="text-link-sub">
-  <area shape="circle" coords="484,277,25" alt="Malaysia" href="#outBoundModal-popup-my" class="text-link-sub">
-  <area shape="circle" coords="475,226,25" alt="Thailand" href="#outBoundModal-popup-th" class="text-link-sub">
-  <area shape="circle" coords="586,156,25" alt="Taiwan" href="#outBoundModal-popup-tw" class="text-link-sub">
-</map>
--->
-<style>
-.contact-us-01 .box-hdg-container { pointer-events: none;}
-.contact-us-01 .box-hdg-container a { pointer-events:all;}
-.map-popup.box-modal-outbound{}
-.map-popup.box-modal-outbound .box-modal-inner{
-  top:25%;
-  background: transparent !important;
-  border: 0px solid #ccc;
-  padding:0px !important;
-}
-.map-popup.box-modal-outbound .panel{ width:100% !important; box-shadow: 1px 1px 2px rgba(0, 0, 0, .3) !important; }
-</style>
-
-
 
 <div class="str-section-wrapper contact-us-04">
 <div class="str-section">
@@ -175,7 +144,4 @@ div.map-area .map-link { position: absolute; width: 2.9%; height: 4.55%; z-index
 <!-- /.str-section --></div>
 <!-- /.str-section-wrapper --></div>
 
-
-
-<!-- /.str-section-wrapper --></div>
 <partial src="../includes/footer.html"/>

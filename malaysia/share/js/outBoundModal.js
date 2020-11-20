@@ -262,7 +262,6 @@ $(function () {
             var scrollTop = $win.scrollTop();
             var $this = e.data.$this;
             var href = e.data.href;
-            var popupName = $this.attr('popup-name');
 
             e.preventDefault();
 
@@ -273,7 +272,7 @@ $(function () {
             $focusElement.prop('tabindex', -1);
             $modalOverlay.removeClass('is-hidden').addClass('is-visible').attr('aria-hidden', 'false');
             $modal.removeClass('map-popup');
-            $modal.addClass(popupName);
+            if( $this.hasClass('map-link') ) { $modal.addClass('map-popup'); }
             $modal.addClass('is-visible').attr('aria-hidden', 'false');
             $modal.find('.modal-tmp').empty().append($modalContent);
             $body.css('marginTop', '-' + scrollTop + 'px').addClass('is-fixed');
