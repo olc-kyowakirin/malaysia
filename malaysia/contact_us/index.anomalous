@@ -1,12 +1,12 @@
 <partial src="../includes/header-start.html"/>
 <title>Contact Us - Kyowa Kirin</title>
-<meta name="description" content="Kyowa Kirin Asia Pacific is headquartered in Singapore, with regional networks in the following markets.">
+<meta name="description" content="Kyowa Kirin Malaysia Sdn Bhd, A501 West Wing, Wisma Consplant 2, Jalan SS 16/1, Subang Jaya, 47500 Selangor, Malaysia - E-mail: enquiry.kkmy@kyowakirin.com">
 <meta property="og:title" content="Contact Us - Kyowa Kirin">
-<meta property="og:description" content="Kyowa Kirin Asia Pacific is headquartered in Singapore, with regional networks in the following markets.">
+<meta property="og:description" content="Kyowa Kirin Malaysia Sdn Bhd, A501 West Wing, Wisma Consplant 2, Jalan SS 16/1, Subang Jaya, 47500 Selangor, Malaysia - E-mail: enquiry.kkmy@kyowakirin.com">
 <partial src="../includes/header-title.html"/>
 <link rel="canonical" href="https://www.kyowakirin.com/malaysia/contact_us/index.html">
 <partial src="../includes/header-end.html"/>
-
+ 
 <div class="box-hdg-wrapper type-04 kkc-anime_load_other-mainvisual contact-us-header">
 <div class="image">
 <img src="/malaysia/images/index_bg_mainsection_01.png" alt="">
@@ -104,7 +104,6 @@
   <p class="link-icon link-text"><span>Visit website</span></p>
 </div>
 <!-- /.panel korea--></a>
-
 
 <!--Thailand -->
 <a href="https://www.kyowakirin.com/thailand/index.html" target="_blank" class="panel">

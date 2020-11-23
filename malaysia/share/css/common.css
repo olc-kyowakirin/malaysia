@@ -712,8 +712,8 @@ template {
     background-image: url('/malaysia/images/index_bg_homepage_01_sp.jpg') !important;
   }
 }
-.who-we-are-header{
-  background-image: url('/malaysia/images/index_bg_who-we-are_01.jpg');
+.about-us-header{
+  background-image: url('/malaysia/images/index_bg_about-us_01.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -726,8 +726,8 @@ template {
   background-repeat: no-repeat;
   position: fixed;
 }
-.working-with-us-header{
-  background-image: url('/malaysia/images/index_bg_working-with-us_01.jpg');
+.therapeutic-areas-header{
+  background-image: url('/malaysia/images/index_bg_therapeutic-areas_01.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -12476,15 +12476,15 @@ padding-top:20px;
   margin: auto;
   text-align: center;
 }
-.str-section-wrapper.homepage-01 .box-who-we-are-button {
+.str-section-wrapper.homepage-01 .box-about-us-button {
     text-align: center;
     margin-top:40px;
 }
 
-.str-section-wrapper.who-we-are-6{
+.str-section-wrapper.about-us-6{
   padding:80px 0 0 0;
 }
-.str-section-wrapper.who-we-are-2{
+.str-section-wrapper.about-us-2{
   padding-top:50px;
 }
 .str-section-wrapper.whatwedo-01{
@@ -12495,41 +12495,41 @@ padding-top:20px;
   outline: none;
 }
 
-.str-section-wrapper.who-we-are-6 .area-focus-wrapper {
+.str-section-wrapper.about-us-6 .area-focus-wrapper {
     display:flex;
 }
-.str-section-wrapper.who-we-are-6 .area-focus-wrapper .area-focus-icon{
+.str-section-wrapper.about-us-6 .area-focus-wrapper .area-focus-icon{
     padding: 1em;
     min-height: 200px;
     display: flex;
 }
 @media only screen and (min-width: 769px) {
-.str-section-wrapper.who-we-are-6 .area-focus-wrapper .area-focus-icon.icon-01,
-.str-section-wrapper.who-we-are-6 .area-focus-wrapper .area-focus-icon.icon-03,
-.str-section-wrapper.who-we-are-6 .area-focus-wrapper .area-focus-icon.icon-05{
+.str-section-wrapper.about-us-6 .area-focus-wrapper .area-focus-icon.icon-01,
+.str-section-wrapper.about-us-6 .area-focus-wrapper .area-focus-icon.icon-03,
+.str-section-wrapper.about-us-6 .area-focus-wrapper .area-focus-icon.icon-05{
     align-items: flex-start;
 }
 
-.str-section-wrapper.who-we-are-6 .area-focus-wrapper .area-focus-icon.icon-02{
+.str-section-wrapper.about-us-6 .area-focus-wrapper .area-focus-icon.icon-02{
     align-items: center;
 }
-.str-section-wrapper.who-we-are-6 .area-focus-wrapper .area-focus-icon.icon-04{
+.str-section-wrapper.about-us-6 .area-focus-wrapper .area-focus-icon.icon-04{
     align-items: flex-end;
 }
 }
 @media only screen and (max-width: 768px) {
-  .str-section-wrapper.who-we-are-6 .area-focus-wrapper {
+  .str-section-wrapper.about-us-6 .area-focus-wrapper {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     max-width: 150px;
     margin: auto;
   }
-.str-section-wrapper.who-we-are-6 .area-focus-wrapper .area-focus-icon{
+.str-section-wrapper.about-us-6 .area-focus-wrapper .area-focus-icon{
   height: auto;
   min-height: auto;
 }
-.str-section-wrapper.who-we-are-6 .area-focus-wrapper .area-focus-icon img{
+.str-section-wrapper.about-us-6 .area-focus-wrapper .area-focus-icon img{
   max-width: auto;
 }
 }
@@ -12564,7 +12564,7 @@ padding-top:20px;
 .workingwithus-04{
   background: #F3F3F3;
 }
-.str-section-wrapper.who-we-are-4{
+.str-section-wrapper.about-us-4{
   padding: 50px 0 50px 0
 }
 
@@ -12578,7 +12578,7 @@ padding-top:20px;
     display: flex;
     align-items: center;
 }
-.str-section-wrapper.who-we-are-3 {
+.str-section-wrapper.about-us-3 {
     margin: 20px 0 80px 0;
 }
 .contact-us-01{
@@ -12755,10 +12755,10 @@ footer .footer-area-sub p.footer-copy {
 .str-section.focus-box{
     padding: 6em 4em 3em 4em;
 }
-.str-section-wrapper.who-we-are-4 .tile-layout-wrapper{
+.str-section-wrapper.about-us-4 .tile-layout-wrapper{
     flex-direction: column;
 }
-.str-section-wrapper.who-we-are-4 .tile-layout-wrapper.sp-col2 .tile{
+.str-section-wrapper.about-us-4 .tile-layout-wrapper.sp-col2 .tile{
     width: 100%;
     margin-bottom: 20px;
 }
