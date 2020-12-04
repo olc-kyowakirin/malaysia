@@ -1,12 +1,12 @@
 <partial src="../includes/header-start.html"/>
-<title>About us - Kyowa Kirin</title>
+<title>About us - Kyowa Kirin Malaysia</title>
 <meta name="description" content="Kyowa Kirin Asia Pacific aspires to collaborate with our counterparts to contribute to the health and well-being of people around the world by creating new value through the pursuits of advances in life sciences and technologies.">
-<meta property="og:title" content="About us - Kyowa Kirin">
+<meta property="og:title" content="About us - Kyowa Kirin Malaysia">
 <meta property="og:description" content="Kyowa Kirin Asia Pacific aspires to collaborate with our counterparts to contribute to the health and well-being of people around the world by creating new value through the pursuits of advances in life sciences and technologies.">
 <partial src="../includes/header-title.html"/>
 <link rel="canonical" href="https://www.kyowakirin.com/malaysia/about_us/index.html">
 <partial src="../includes/header-end.html"/>
- 
+
 <div class="box-hdg-wrapper type-04 kkc-anime_load_other-mainvisual about-us-header">
 <div class="image">
 <img src="/malaysia/images/index_bg_mainsection_01.png" alt="">
@@ -115,7 +115,7 @@
 <p>...</p>
 <!-- /.box-text --></div>
 <div class="box-text">
-<p>Taking the walk of life,</p>
+<p>Taking the walk of Life,</p>
 <p>one life at a time.</p>
 <!-- /.box-text --></div>
 
