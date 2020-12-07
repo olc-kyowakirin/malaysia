@@ -666,9 +666,7 @@ template {
 .box-corevalue-top .box-hdg2-wrapper,
 .box-careers-top .box-hdg2-wrapper,
 .str-section-wrapper > .str-section.therapeutic-areas,
-.workingwithus-05.str-section-wrapper > .str-section,
-.box-atagrance-top .box-hdg2-wrapper,
-.box-atagrance-bottom > .box-inner{
+.workingwithus-05.str-section-wrapper > .str-section {
   max-width: 600px;
   margin: 0 auto;
   padding-top: .1px;
@@ -751,8 +749,7 @@ template {
   position: fixed;
 }
 
-.str-section-wrapper.str-section-grey-bg,
-.box-atagrance-top{
+.str-section-wrapper.str-section-grey-bg {
   background-image: url('/malaysia/images/index_img_bg_get-to-know_01.png');
   background-size: cover;
   background-position: top center;
@@ -782,16 +779,8 @@ template {
     color: #ffffff !important;
 }
 
-.str-section-wrapper.homepage-03,
-.box-atagrance-top{
-  margin-top: 80px;
-  padding:80px 0;
-}
-@media only screen and (max-width: 1023px) {
-  .str-section-wrapper.homepage-03,
-  .box-atagrance-top{
-    padding-top:0px !important;
-  }
+.str-section-wrapper.homepage-03 {
+  padding-bottom: 60px;
 }
 
 .str-section-wrapper.homepage-03 .text-lead{
@@ -5606,13 +5595,6 @@ div#message-president .box-image{
 
 /* TOP: At a grance
 * ========================================================================= */
-.box-atagrance-top {
-  margin-top: 100px;
-}
-
-.box-atagrance-top > .box-inner {
-  margin-top: 30px;
-}
 
 .tile-layout-wrapper {
   display: flex;
@@ -5675,9 +5657,6 @@ div#message-president .box-image{
   height: 20px;
   border: 1px solid #fff;
   border-radius: 50%;
-}
-.box-atagrance-top .tile .title {
-    line-height: 1.2em;
 }
 .tile .title .icon.icon-modal::before,
 .tile .title .icon.icon-modal::after {
@@ -5778,9 +5757,6 @@ div#message-president .box-image{
   min-height: 100%;
   transition-duration: .5s;
   transform: translate(50%, -50%) scale(1);
-}
-@media screen and (max-width: 769px) {
-   .box-atagrance-bottom .tile .box-image > img { transform: translate(50%, -50%) scale(.75) }
 }
 
 .tile:hover .box-image > img,
@@ -9290,9 +9266,6 @@ padding-top:20px;
   .box-kkapinnumbers-top {
     margin-top: 0;
   }
-  .box-atagrance-top {
-    margin-top: 100px;
-  }
   .tile-layout-wrapper.col2 .tile {
     margin-top: 20px;
   }
@@ -11337,12 +11310,6 @@ padding-top:20px;
   .box-corevalue-top .box-corevalue-wrapper .parts-feature-after {
     display: none;
   }
-  .box-atagrance-top .tile-layout-wrapper {
-    margin-bottom: 20px;
-  }
-  .box-atagrance-top .tile-layout-wrapper:last-child {
-    margin-bottom: 0;
-  }
   .tile-layout-wrapper .tile {
     display: block;
     width: 100%;
@@ -12315,9 +12282,7 @@ padding-top:20px;
   .box-kkapinnumbers-top .box-hdg2-wrapper,
   .box-regionalnetwork .box-hdg2-wrapper,
   .box-corevalue-top .box-hdg2-wrapper,
-  .box-atagrance-top .box-hdg2-wrapper,
   .box-careers-top,
-  .box-atagrance-top > .box-inner,
   .mediacenter-01 > .box-inner,
   .mediacenter-02 > .box-inner {
     padding-right: calc(46px/2);
@@ -12480,14 +12445,12 @@ padding-top:20px;
     padding-bottom:50px;
 }
 .str-section-wrapper.homepage-04 .tile{
-    margin-top: 40px;
+    margin-top: 20px !important;
+    margin-bottom: 0px !important;
 }
 .box-movie-thumb.box-movie-spe:before,
 .box-movie-thumb.box-movie-spe:after{
     display:none;
-}
-.box-atagrance-bottom > .box-inner{
-  margin-top:40px;
 }
 
 .str-section.str-section-boxed-800px{

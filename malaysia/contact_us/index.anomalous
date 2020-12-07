@@ -40,7 +40,7 @@
 <a class="map-link text-link-sub map-link-my" href="#outBoundModal-popup-my" title="Malaysia"></a>
 <a class="map-link text-link-sub map-link-sg" href="#outBoundModal-popup-sg" title="Singapore"></a>
 <a class="map-link text-link-sub map-link-au" href="#outBoundModal-popup-au" title="Australia"></a>
-</div>
+<!-- /.map-area --></div>
 <!-- /.image --></div>
 <!-- /.box-hdg-wrapper --></div>
 
