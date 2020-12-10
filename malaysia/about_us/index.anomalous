@@ -16,7 +16,7 @@
 
 <div class="str-section-wrapper first-section about-us-1">
 <div class="str-section str-section-boxed">
-<div class="box-hdg2-wrapper" id="anc-about-us">
+<div class="box-hdg2-wrapper">
 <h1 class="hdg-lv2-02">Our Vision</h1>
 <p class="text-lead">Kyowa Kirin Asia Pacific is dedicated towards our patient health and wellbeing worldwide. We leverage on innovative drug discovery and global commercialisation, driven by state of-the-art antibody technologies mainly in the core therapeutic areas of Nephrology, Oncology, Immunology & Allergy, and Central Nervous System.</p>
 <!-- /.box-hdg2-wrapper --></div>
@@ -34,7 +34,7 @@
 
 <div class="str-section-wrapper first-section about-us-1">
 <div class="str-section str-section-boxed">
-<div class="box-hdg2-wrapper" id="anc-about-us">
+<div class="box-hdg2-wrapper">
 <h1 class="hdg-lv2-02">Our Philosophy</h1>
 <p class="text-lead">Kyowa Kirin Asia Pacific aspires to collaborate with our counterparts to contribute to the health and well-being of people around the world by creating new value through the pursuits of advances in life sciences and technologies.</p>
 <!-- /.box-hdg2-wrapper --></div>
