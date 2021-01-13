@@ -1,9 +1,10 @@
-<partial src="../includes/header-start.html"/>
+<partial src="../../includes/header-start.html"/>
 <title>Privacy Policy - Kyowa Kirin Malaysia</title>
 <meta name="robots" content="noindex">
-<partial src="../includes/header-title.html"/>
-<link rel="canonical" href="https://www.kyowakirin.com/malaysia/privacy_policy/index.html">
-<partial src="../includes/header-end.html"/>
+<partial src="../../includes/header-title.html"/>
+<link rel="canonical" href="https://www.kyowakirin.com/malaysia/privacy_policy/en/index.html">
+<partial src="../../includes/header-end.html"/>
+
 
  <div class="main-content">
 
@@ -13,12 +14,11 @@
 <li><a aria-current="page">Privacy Policy</a></li>
 </ul>
 <!-- /.box-breadcrumb --></div>
-
 <h1 class="hdg-lv1-02">Privacy Policy</h1>
 
 <h2 class="hdg-lv2-01">Privacy Statement</h2>
 <div class="box-text">
-<p>Kyowa Kirin Asia Pacific Pte. Ltd. (“Kyowa Kirin”) commits to protect your privacy and personal information subject to the provisions of this Privacy Statement. This Privacy Statement explains our privacy policy with respect to certain personal information in our website https://www.kyowakirin.com/singapore/ (“Kyowa Kirin's website” (hereafter, this website)).</p>
+<p>Kyowa Kirin Malaysia Sdn. Bhd. (“Kyowa Kirin”) commits to protect your privacy and personal information subject to the provisions of this Privacy Statement. This Privacy Statement explains our privacy policy with respect to certain personal information in our website <a href="https://www.kyowakirin.com/malaysia/">https://www.kyowakirin.com/malaysia/</a> (“Kyowa Kirin's website” (hereafter, this website)).</p>
 <!-- /.box-text --></div>
 
 <h3 class="hdg-lv3-01">1. Collection and Use of Personal Information</h3>
@@ -31,7 +31,8 @@
 <h4 class="hdg-lv4-01">(ii) Collection and Use of Personal Information
 </h4>
 <div class="box-text">
-<p>To enable Kyowa Kirin to provide you with any information about our products and services, you may be asked to provide your Personal Information to Kyowa Kirin. In such case, Kyowa Kirin will show you the purpose of such collection and use of your Personal Information, and should Kyowa Kirin have to use your Personal Information beyond such purpose, Kyowa Kirin will inform you of the new purpose beforehand. In any case, you are able to decline to provide your Personal Information to Kyowa Kirin. However, in that case you should be aware that Kyowa Kirin cannot provide you any of our services.</p>
+<p>To enable Kyowa Kirin to provide you with any information about our products and services, you may be asked to provide your Personal Information to Kyowa Kirin. In such case, Kyowa Kirin will show you the purpose of such collection and use of your Personal Information, and should Kyowa Kirin have to use your Personal Information beyond such purpose, Kyowa Kirin will inform you of the new purpose beforehand.
+In any case, you are able to decline to provide your Personal Information to Kyowa Kirin. However, in that case you should be aware that Kyowa Kirin cannot provide you any of our services.</p>
 <!-- /.box-text --></div>
 <div class="box-text">
 <p>If you do not want to provide your personal information, you are able to refuse to provide it. However, in that case we cannot provide some of the services which need personal information properly.</p>
@@ -47,7 +48,7 @@
     <li><strong>Statistical Processing</strong><br>
 Kyowa Kirin may collect certain information about your visit, such as the date and time of your access to Kyowa Kirin's Website, for the purpose of improvement of this website. Such information will be statistically analyzed and compiled, but no Personal Information will be included therein.</li>
     <li><strong>Cookies</strong><br>
-Some pages on this website use technology called “Cookies” to provide you for greater convenience of your usage. You can make your browser reject Cookies. However, in this case you may not apply to use some of the services on this web site.</li>
+    Some pages on this website use technology called “Cookies” to provide you for greater convenience of your usage. You can make your browser reject Cookies. However, in this case you may not apply to use some of the services on this web site.</li>
 </ol>
 
 <h3 class="hdg-lv3-01">2. Disclosure of Personal Information</h3>
@@ -80,8 +81,9 @@ Some pages on this website use technology called “Cookies” to provide you fo
 <!-- /.box-text --></div>
 
 <div class="box-text">
-<p>If you have any questions regarding this notice or about our privacy practices, please contact us at <a href="mailto:kkap.dpooffice.2q@kyowakirin.com.">kkap.dpooffice.2q@kyowakirin.com.</a></p>
+<p>If you have any questions regarding this notice or about our privacy practices, please contact us at <a href="mailto:kkmy.dpooffice.2h@kyowakirin.com">kkmy.dpooffice.2h@kyowakirin.com</a>.</p>
 <!-- /.box-text --></div>
 <!-- /.main-content --></div>
 
-<partial src="../includes/footer.html"/>
+
+<partial src="../../includes/footer.html"/>

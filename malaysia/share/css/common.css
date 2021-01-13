@@ -1376,11 +1376,14 @@ ol.showlist li ol{
   padding-right: 10px;
 }
 
+.footer .footer-link > li {
+  font-size: 1.4rem;
+  color: #fff;
+}
 .footer .footer-link > li > a {
   font-size: 1.4rem;
   color: #fff;
-  display: block;
-  padding-right: 10px;
+  display: inline ;
 }
 
 .footer-link a img.icon-small { height:13px; width:13px; }
@@ -13204,14 +13207,14 @@ xx.box-hdg-wrapper.type-05 .box-hdg-container{
 .map-area { position:relative;float:left; width:100%; height:auto; }
 .map-area .map-image {position:unset !important;}
 .map-area .map-link { position: absolute; width: 2.9%; height: 4.55%; z-index: 2;}
-.map-area .map-link-ko { left: 60%; top: 11.95%;}
-.map-area .map-link-ch { left: 56.4%; top: 17.34%;}
-.map-area .map-link-tw { left: 57.2%; top: 23.23%;}
-.map-area .map-link-kk { left: 52.4%; top: 26.94%;}
-.map-area .map-link-th { left: 45.6%; top: 36.36%;}
-.map-area .map-link-my { left: 46.5%; top: 43.6%;}
-.map-area .map-link-sg { left: 48.5%; top: 49.49%;}
-.map-area .map-link-au { left: 72.8%; top: 90%;}
+.map-area .map-link-ko { left: 62.5%; top:  5.4%; }
+.map-area .map-link-ch { left: 58.3%; top: 10.8%; }
+.map-area .map-link-tw { left: 59.5%; top: 17.0%; }
+.map-area .map-link-kk { left: 53.4%; top: 20.1%; }
+.map-area .map-link-th { left: 45.9%; top: 28.4%; }
+.map-area .map-link-my { left: 47.0%; top: 36.1%; }
+.map-area .map-link-sg { left: 49.0%; top: 41.0%; }
+.map-area .map-link-au { left: 77.8%; top: 80.0%; }
 .contact-us-01 .box-hdg-container { pointer-events: none;}
 .contact-us-01 .box-hdg-container a { pointer-events:all;}
 .map-popup.box-modal-outbound{}
