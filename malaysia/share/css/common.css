@@ -976,18 +976,18 @@ a {
 .header > .header-inner .logo {
   float: left;
   padding-top: calc(30px/2);
-  padding-right: 15px;
+  padding-right: 5px;
   padding-left: calc(23px/2);
 }
 
 .header > .header-inner .logo img {
   display: inline-block;
   width: 100%;
-  max-width: 164px;
+  max-width: 170px;
   padding-right:10px;
 }
 .header > .header-inner .logo img:nth-child(2) {
-    max-width: 190px;
+    max-width: 195px;
 }
 .header > .header-inner .header-nav {
   float: right;
@@ -10266,7 +10266,7 @@ padding-top:20px;
     display:none;
   }
   .header > .header-inner .logo{
-    padding-top: 10px;
+    padding-top: 5px;
   }
   .header > .header-inner .logo img:nth-child(2){
     margin-top:-10px;
