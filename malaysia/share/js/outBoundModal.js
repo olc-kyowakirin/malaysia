@@ -83,7 +83,7 @@ $(function () {
             //th
                         type10: '<div class="box-offices-globalarea"><div class="box-offices-globalarea-outer"><div class="box-inner"><div class="box-panel"><!--Thailand --><a href="https://www.kyowakirin.com/thailand/index.html" target="_blank" class="panel outBoundModalLink"><div class="box-thumb"><img src="images/index_img_regionalnetwork_panel_thailand_01.jpg" alt=""></div><div class="box-content"><h3 class="title"><span class="sub">THAILAND</span>Kyowa Kirin (Thailand) Co., Ltd. </h3><p class="box-text">323 United Center Building<br>20th floor, room 2003B<br>Silom road, Silom, Bangrak<br>Bangkok 10500 Thailand<br>Tel. +662 6312126-8<br>Fax. +662 6312125</p><p class="link-icon link-text"><span>Visit website</span></p></div><!-- /.panel Thailand--></a><!-- /.box-panel --></div><!-- /.box-inner --></div><!-- /.box-offices-globalarea-outer --></div>',
             // tw
-                        type11: '<div class="box-offices-globalarea"><div class="box-offices-globalarea-outer"><div class="box-inner"><div class="box-panel"><!--Taiwan --><a href="https://www.kyowakirin.com/tw/index.html" target="_blank" class="panel"><div class="box-thumb"><img src="images/index_img_regionalnetwork_panel_taiwan_01.jpg" alt=""></div><div class="box-content"><h3 class="title"><span class="sub">TAIWAN</span>Kyowa Kirin Taiwan Co., Ltd.</h3><p class="box-text">9th floor, No. 68, Section 2<br>Zhongshan North Road, Zhongshan District<br>Taipei City, Taiwan 10448<br><br>富邦中山大樓9F<br>中山北路二段68號</p><p class="link-icon link-text"><span>Visit website</span></p></div><!-- /.panel Taiwan--></a><!-- /.box-panel --></div><!-- /.box-inner --></div><!-- /.box-offices-globalarea-outer --></div>',
+                        type11: '<div class="box-offices-globalarea"><div class="box-offices-globalarea-outer"><div class="box-inner"><div class="box-panel"><!--Taiwan --><a href="https://www.kyowakirin.com/tw/index.html" target="_blank" class="panel outBoundModalLink"><div class="box-thumb"><img src="images/index_img_regionalnetwork_panel_taiwan_01.jpg" alt=""></div><div class="box-content"><h3 class="title"><span class="sub">TAIWAN</span>Kyowa Kirin Taiwan Co., Ltd.</h3><p class="box-text">9th floor, No. 68, Section 2<br>Zhongshan North Road, Zhongshan District<br>Taipei City, Taiwan 10448<br><br>富邦中山大樓9F<br>中山北路二段68號</p><p class="link-icon link-text"><span>Visit website</span></p></div><!-- /.panel Taiwan--></a><!-- /.box-panel --></div><!-- /.box-inner --></div><!-- /.box-offices-globalarea-outer --></div>',
 
         };
         var modalOverlayTmp = '<div class="box-modal-overlay is-hidden" aria-hidden="true"></div>';
@@ -280,6 +280,17 @@ $(function () {
             deferred.resolve().then(function () {
                 $modal.addClass('is-animation');
             });
+
+            // check links in popup
+            if( $this.hasClass('map-link') )
+            {
+                var $a = $('.box-modal-outbound a').not('.box-modal-outbound a[href^="mailto:"], .box-modal-outbound a[href^="tel:"]');
+
+                if ($a.length) {
+                    $a.setOutboundModal();
+                }
+            }
+
         };
         var modalClose = function () {
             var bodyTop = Math.abs(parseInt($body.css('marginTop'), 10));
