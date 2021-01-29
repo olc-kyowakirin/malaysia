@@ -7,7 +7,6 @@
 <link rel="canonical" href="https://www.kyowakirin.com/malaysia/contact_us/index.html">
 <partial src="../includes/header-end.html"/>
 
-
 <div class="box-hdg-wrapper type-04 kkc-anime_load_other-mainvisual contact-us-header">
 <div class="image">
 <img src="/malaysia/images/index_bg_mainsection_01.png" alt="">
@@ -58,19 +57,20 @@
 <div class="box-panel">
 
 <!--Australia -->
-<div class="panel">
+<a href="https://www.kyowakirin.com/australia/index.html" target="_blank" class="panel">
   <div class="box-thumb"><img src="images/index_img_regionalnetwork_panel_australia_01.jpg" alt=""></div>
   <div class="box-content">
   <h3 class="title"><span class="sub">AUSTRALIA</span>Kyowa Kirin Australia Pty Ltd</h3>
-  <p class="box-text">68 York Street<br>Sydney<br>NSW 2000, Australia<br/>E-mail:<a href="mailto:enquiry.kkau@kyowakirin.com" target="_blank">&nbsp;enquiry.kkau@kyowakirin.com</a></p>
+  <p class="box-text">68 York Street<br>Sydney<br>NSW 2000, Australia</p>
+  <p class="link-icon link-text"><span>Visit website</span></p>
   </div>
-<!-- /.panel Australia --></div>
+<!-- /.panel Australia --></a>
 
   <!--China -->
   <a href="http://www.kyowa-kirin.com.cn/en/index.html" target="_blank" class="panel">
     <div class="box-thumb"><img src="images/index_img_regionalnetwork_panel_china_01.jpg" alt=""></div>
     <div class="box-content">
-    <h3 class="title"><span class="sub">CHINA</span>Kyowa Hakko Kirin China Pharmaceutical Co., Ltd.</h3>
+    <h3 class="title"><span class="sub">CHINA</span>Kyowa Kirin China Pharmaceutical Co., Ltd.</h3>
     <p class="box-text">970 Longdong Road<br>Pudong New Area<br>Shanghai, 201203, China<br>Tel. +86-021-5080-0909</p>
     <p class="link-icon link-text"><span>Visit website</span></p>
     </div>
