@@ -6,15 +6,12 @@
 <partial src="../includes/header-title.html"/>
 <link rel="canonical" href="https://www.kyowakirin.com/malaysia/about_us/index.html">
 <partial src="../includes/header-end.html"/>
-
-
 <div class="box-hdg-wrapper type-04 kkc-anime_load_other-mainvisual about-us-header">
 <div class="image">
 <img src="/malaysia/images/index_bg_mainsection_01.png" alt="">
 <h2 class="hdg-lv2-03">ABOUT US</h2>
 <!-- /.image --></div>
 <!-- /.box-hdg-wrapper --></div>
-
 <div class="str-section-wrapper first-section about-us-1">
 <div class="str-section str-section-boxed">
 <div class="box-hdg2-wrapper">
@@ -23,7 +20,6 @@
 <!-- /.box-hdg2-wrapper --></div>
 <!-- /.str-section --></div>
 <!-- /.str-section-wrapper --></div>
-
 <div class="str-section-wrapper about-us-2">
 <div class="str-section str-section-boxed">
 <div class="box-hdg2-wrapper" id="anc-our-vision">
@@ -32,7 +28,6 @@
 <!-- /.box-hdg2-wrapper --></div>
 <!-- /.str-section --></div>
 <!-- /.str-section-wrapper --></div>
-
 <div class="str-section-wrapper first-section about-us-1">
 <div class="str-section str-section-boxed">
 <div class="box-hdg2-wrapper">
@@ -41,13 +36,11 @@
 <!-- /.box-hdg2-wrapper --></div>
 <!-- /.str-section --></div>
 <!-- /.str-section-wrapper --></div>
-
 <div class="box-corevalue-top">
 <div class="box-corevalue-wrapper">
-  <div class="image sp-hide">
-    <img src="images/index_bg_corevalue_01.png" alt="">
-  <!-- /.image --></div>
-
+<div class="image sp-hide">
+<img src="images/index_bg_corevalue_01.png" alt="">
+<!-- /.image --></div>
 <div class="box-inner kkc-anime_scroll_top-beans_parent kkc-anime_state_show" data-trigger="beans" data-fade-point-pc="bottom:50px">
 <a href="#modal-corevalue" class="kkc-anime_scroll_common_fade-in btn-modalopen parts-feature parts-commitment kkc-anime_state_show kkc-anime_state_animation-end">
 <img src="images/index_img_corevalue_01.png" class="sp-hide" alt="Commitment to Life For us, innovation does not just mean growth. It means doing everything we can to improve the quality of life for people around the world. READ THE FULL MISSION STATEMENT show content">
@@ -69,16 +62,11 @@
 <img src="images/index_img_corevalue_04_sp.png" class="pc-hide" alt="Teamwork/Wa One for all, all for one. Work in diverse teams and respect each other. Go beyond boundaries and collaborate with stakeholders.">
 </button>
 <!-- /.box-inner --></div>
-
 <!-- /.box-corevalue-wrapper --></div>
-
 <div class="box-modal-content" id="modal-corevalue">
 <div class="box-inner">
-
 <div class="box-content">
-
 <button type="button" class="btn-close-modal type-first" tabindex="-1"><span>close</span></button>
-
 <div class="box-text">
 <p>Countless precious lives surround us.</p>
 <p>Brought into this world, blessed, raised with loving care</p>
@@ -119,13 +107,10 @@
 <p>Taking the walk of Life,</p>
 <p>one life at a time.</p>
 <!-- /.box-text --></div>
-
 <button type="button" class="btn-close-modal" tabindex="-1"><span>close</span></button>
 <!-- /.box-content --></div>
-
 <!-- /.box-inner --></div>
 <!-- /.box-modal-content --></div>
-
 <!-- /.box-corevalue-top --></div>
 <br/><br/>
 <div class="str-section-wrapper olc-button-section about-us-5">
@@ -135,5 +120,4 @@
 <!-- /.box-hdg2-wrapper --></div>
 <!-- /.box-about-us-button --></div>
 <!-- /.str-section-wrapper --></div>
-
 <partial src="../includes/footer.html"/>
