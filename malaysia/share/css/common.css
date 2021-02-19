@@ -346,7 +346,7 @@ template {
 
 /* Slider */
 .slick-loading .slick-list {
-  background: #fff url("../images/ajax-loader.gif") center center no-repeat;
+  background: #fff url("../images/ajax_loader.gif") center center no-repeat;
 }
 
 /* Icons */
@@ -720,21 +720,21 @@ template {
   }
 }
 .about-us-header{
-  background-image: url('/malaysia/images/index_bg_about-us_01.jpg');
+  background-image: url('/malaysia/images/index_bg_about_us_01.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   position: fixed;
 }
 .our-medicines-header{
-  background-image: url('/malaysia/images/index_bg_our-medicines_01.jpg');
+  background-image: url('/malaysia/images/index_bg_our_medicines_01.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   position: fixed;
 }
 .therapeutic-areas-header{
-  background-image: url('/malaysia/images/index_bg_therapeutic-areas_01.jpg');
+  background-image: url('/malaysia/images/index_bg_therapeutic_areas_01.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -742,7 +742,7 @@ template {
 }
 
 .contact-us-header{
-  background-image: url('/malaysia/images/index_bg_contact-us_01.jpg');
+  background-image: url('/malaysia/images/index_bg_contact_us_01.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -9218,7 +9218,7 @@ padding-top:20px;
     margin-top: 100px;
   }
   .box-cutting-edge-wrapper {
-    background-image: url("../../images/index_bg_cutting-edge_01.jpg");
+    background-image: url("../../images/index_bg_cutting_edge_01.jpg");
     background-size:cover;
     background-position: center right;
   }
