@@ -579,7 +579,7 @@ iframe {
   border: none;
 }
 
-ul,
+ul:not(.list-points),
 ol:not(.list-showlist) li {
   margin: 0;
   padding: 0;
@@ -936,10 +936,10 @@ html:not(.js-enable) .header-nav .header-nav-list.header-search .btn-menu-global
   cursor: pointer;
   border: none;
 }
-ol.list-showlist li{
+ol.list-showlist > li{
     margin-bottom:20px
 }
-ol.list-showlist li ol{
+ol.list-showlist > li ol{
     margin-top:10px;
 }
 /* jS用スタイル */
